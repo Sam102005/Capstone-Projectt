@@ -1,0 +1,9 @@
+{
+  "firstname": "Test",
+  "lastname": "Automation",
+  "email": "qa.user_{ts}@example.com",
+  "telephone": "9876543210",
+  "password": "Test@1234",
+  "product_name": "iPhone",
+  "update_quantity": 3
+}

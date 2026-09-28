@@ -1,0 +1,30 @@
+23:12:51 | INFO    | utils.driver_factory | Launching browser=chrome headless=False
+23:13:05 | INFO    | pages.base_page | Opening https://tutorialsninja.com/demo/
+23:13:10 | INFO    | utils.screenshot | Screenshot saved: C:\Users\sayan\OneDrive\Desktop\Capstone_1\screenshots\20260928_231251\01_home_page.png
+23:13:10 | INFO    | utils.data_reader | Loaded test data from json (user=qa.user_1790617390@example.com, product=iPhone, qty=3)
+23:13:10 | INFO    | pages.base_page | Opening https://tutorialsninja.com/demo/index.php?route=account/register
+23:13:15 | INFO    | pages.account_page | User qa.user_1790617390@example.com registered
+23:13:15 | INFO    | utils.screenshot | Screenshot saved: C:\Users\sayan\OneDrive\Desktop\Capstone_1\screenshots\20260928_231251\02_registration_created.png
+23:13:15 | INFO    | pages.base_page | Opening https://tutorialsninja.com/demo/index.php?route=account/logout
+23:13:16 | INFO    | pages.account_page | Logged out
+23:13:16 | INFO    | pages.base_page | Opening https://tutorialsninja.com/demo/index.php?route=account/login
+23:13:18 | INFO    | pages.account_page | Logged in as qa.user_1790617390@example.com
+23:13:18 | INFO    | utils.screenshot | Screenshot saved: C:\Users\sayan\OneDrive\Desktop\Capstone_1\screenshots\20260928_231251\03_logged_in.png
+23:13:18 | INFO    | pages.base_page | Opening https://tutorialsninja.com/demo/
+23:13:20 | INFO    | pages.home_page | Searching for 'iPhone'
+23:13:21 | INFO    | utils.screenshot | Screenshot saved: C:\Users\sayan\OneDrive\Desktop\Capstone_1\screenshots\20260928_231251\04_search_results.png
+23:13:22 | INFO    | pages.search_page | Add to cart message: Success: You have added iPhone to your shopping cart!
+×
+23:13:22 | INFO    | utils.screenshot | Screenshot saved: C:\Users\sayan\OneDrive\Desktop\Capstone_1\screenshots\20260928_231251\05_added_to_cart.png
+23:13:22 | INFO    | pages.base_page | Opening https://tutorialsninja.com/demo/index.php?route=checkout/cart
+23:13:24 | INFO    | utils.screenshot | Screenshot saved: C:\Users\sayan\OneDrive\Desktop\Capstone_1\screenshots\20260928_231251\06_cart_before_update.png
+23:13:25 | INFO    | pages.cart_page | Cart update message: Success: You have modified your shopping cart!
+×
+23:13:25 | INFO    | utils.screenshot | Screenshot saved: C:\Users\sayan\OneDrive\Desktop\Capstone_1\screenshots\20260928_231251\07_cart_after_update.png
+23:13:25 | INFO    | pages.base_page | Opening https://tutorialsninja.com/demo/index.php?route=checkout/cart
+23:13:26 | INFO    | tests.test_purchase_flow | Cart contents: [{'name': 'iPhone', 'quantity': 3, 'unit_price': 123.2, 'total': 369.6}]
+23:13:27 | INFO    | utils.screenshot | Screenshot saved: C:\Users\sayan\OneDrive\Desktop\Capstone_1\screenshots\20260928_231251\08_cart_verification.png
+23:13:27 | INFO    | pages.base_page | Opening https://tutorialsninja.com/demo/index.php?route=account/logout
+23:13:28 | INFO    | pages.account_page | Logged out
+23:13:28 | INFO    | utils.screenshot | Screenshot saved: C:\Users\sayan\OneDrive\Desktop\Capstone_1\screenshots\20260928_231251\09_logged_out.png
+23:13:28 | INFO    | conftest | Closing browser
